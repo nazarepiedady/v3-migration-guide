@@ -337,7 +337,6 @@ As funcionalidades que começam com `COMPILER_` são específicas do compilador:
 | FILTERS                      | ✔    | filtros removidos (esta opção afeta apenas as APIs de tempo de execução)      | [ligação](./breaking-changes/filters)                                                      |
 | COMPILER_IS_ON_ELEMENT       | ✔    | o uso de `is` agora está restrito apenas ao `<component>`            | [ligação](./breaking-changes/custom-elements-interop)                                      |
 | COMPILER_V_BIND_SYNC         | ✔    | `v-bind.sync` substituído por `v-model` com argumentos                 | [ligação](./breaking-changes/v-model)                                                      |
-| COMPILER_V_BIND_PROP         | ✔    | modificador `v-bind.prop` removido                                        |                                                                                             |
 | COMPILER_V_BIND_OBJECT_ORDER | ✔    | `v-bind="object"` agora é sensível a ordem                              | [ligação](./breaking-changes/v-bind)                                                       |
 | COMPILER_V_ON_NATIVE         | ✔    | modificador `v-on.native` removido                                        | [ligação](./breaking-changes/v-on-native-modifier-removed)                                 |
 | COMPILER_V_FOR_REF           | ✔    | `ref` no `v-for` (suporte de compilador)                                   |                                                                                             |

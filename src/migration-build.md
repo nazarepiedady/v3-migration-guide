@@ -337,7 +337,6 @@ Features that start with `COMPILER_` are compiler-specific: if you are using the
 | FILTERS                      | ✔    | Filters removed (this option affects only runtime filter APIs)        | [link](./breaking-changes/filters.html)                                                      |
 | COMPILER_IS_ON_ELEMENT       | ✔    | `is` usage is now restricted to `<component>` only                    | [link](./breaking-changes/custom-elements-interop.html)                                      |
 | COMPILER_V_BIND_SYNC         | ✔    | `v-bind.sync` replaced by `v-model` with arguments                    | [link](./breaking-changes/v-model.html)                                                      |
-| COMPILER_V_BIND_PROP         | ✔    | `v-bind.prop` modifier removed                                        |                                                                                             |
 | COMPILER_V_BIND_OBJECT_ORDER | ✔    | `v-bind="object"` is now order sensitive                              | [link](./breaking-changes/v-bind.html)                                                       |
 | COMPILER_V_ON_NATIVE         | ✔    | `v-on.native` modifier removed                                        | [link](./breaking-changes/v-on-native-modifier-removed.html)                                 |
 | COMPILER_V_FOR_REF           | ✔    | `ref` in `v-for` (compiler support)                                   |                                                                                             |
