@@ -23,7 +23,7 @@ watch: {
       console.log('book list changed')
     },
     deep: 1 // Vue 3.5+
-    deep: true // Vue 3.0 - 3.4
+    // deep: true // Vue 3.0 - 3.4
   },
 }
 ```
