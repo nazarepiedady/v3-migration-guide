@@ -335,7 +335,6 @@ export default {
 | FILTERS                      | ✔    | Фільтри видалено (цей параметр впливає лише на API фільтрів під час виконання) | [link](./breaking-changes/filters.html)                                                      |
 | COMPILER_IS_ON_ELEMENT       | ✔    | Використання `is` обмежено лише до `<component>`                               | [link](./breaking-changes/custom-elements-interop.html)                                      |
 | COMPILER_V_BIND_SYNC         | ✔    | `v-bind.sync` замінено на `v-model` з аргументами                              | [link](./breaking-changes/v-model.html)                                                      |
-| COMPILER_V_BIND_PROP         | ✔    | Модифікатор `v-bind.prop` видалено                                             |                                                                                              |
 | COMPILER_V_BIND_OBJECT_ORDER | ✔    | `v-bind="object"` тепер чутливий до порядку                                    | [link](./breaking-changes/v-bind.html)                                                       |
 | COMPILER_V_ON_NATIVE         | ✔    | Модифікатор `v-on.native` видалено                                             | [link](./breaking-changes/v-on-native-modifier-removed.html)                                 |
 | COMPILER_V_FOR_REF           | ✔    | `ref` в `v-for` (підтримка компілятора)                                             |                                                                                              |

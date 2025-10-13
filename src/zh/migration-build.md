@@ -334,7 +334,6 @@ export default {
 | FILTERS                      | ✔    | 过滤器被移除 (该选项只会影响运行时的过滤器 API) | [链接](./breaking-changes/filters.html) |
 | COMPILER_IS_ON_ELEMENT       | ✔    | `is` 的使用现在被严格限制在 `<component>` 上 | [链接](./breaking-changes/custom-elements-interop.html) |
 | COMPILER_V_BIND_SYNC         | ✔    | `v-bind.sync` 被替换为带参数的 `v-model` | [链接](./breaking-changes/v-model.html) |
-| COMPILER_V_BIND_PROP         | ✔    | `v-bind.prop` 修饰符被移除 | |
 | COMPILER_V_BIND_OBJECT_ORDER | ✔    | `v-bind="object"` 现在是顺序敏感的 | [链接](./breaking-changes/v-bind.html) |
 | COMPILER_V_ON_NATIVE         | ✔    | `v-on.native` 修饰符被移除 | [链接](./breaking-changes/v-on-native-modifier-removed.html) |
 | COMPILER_V_FOR_REF           | ✔    | `v-for` 中的 `ref` (编译器支持)) | |
